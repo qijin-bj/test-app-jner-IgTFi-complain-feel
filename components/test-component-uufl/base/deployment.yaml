@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-uufl
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:06120eed48d74da885fe190dc49375af
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:9f9c7f1481fa6914e84342c58f56ad22edcc8adc9867509e3a0a49685e2c4277
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
